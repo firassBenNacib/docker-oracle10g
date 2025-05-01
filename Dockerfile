@@ -1,7 +1,5 @@
 FROM i386/debian:7.11
 
-LABEL maintainer="Kristian Du <kristian.du@gmail.com>"
-
 ENV ORACLE_HOME=/usr/lib/oracle/xe/app/oracle/product/10.2.0/server \
     LD_LIBRARY_PATH=$ORACLE_HOME/lib \
     PATH=$ORACLE_HOME/bin:$PATH \
